@@ -6,7 +6,7 @@ import Link from "next/link";
 import courseData from "@/data/music_courses.json"
 const page = () => {
     return (
-        <section className='w-full relative py-12 pt-36 min-h-screen'>
+        <section className='dark:bg-black dark:bg-dot-white/[0.2]  w-full relative py-12 pt-36 min-h-screen'>
             <div className='max-w-[90%] m-auto'>
                 <div className='flex flex-col justify-center items-center'>
                     <h2 className='font-bold text-center my-5 text-6xl'>All Courses ({courseData.courses.length})</h2>

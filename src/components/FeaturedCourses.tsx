@@ -18,7 +18,8 @@ export const FeaturedCourses = () => {
     useEffect(() => {
         let filteredData = data.filter((course: card) => course.isFeatured === true)
         setData(filteredData)
-    }, [data])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
     return (
         <div className='relative bg-gray-900'>
             <div className='w-[92%] md:max-w-[95%] m-auto'>

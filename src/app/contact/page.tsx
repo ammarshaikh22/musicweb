@@ -3,12 +3,7 @@ import React from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import {
-    IconBrandGithub,
-    IconBrandGoogle,
-    IconBrandOnlyfans,
-} from "@tabler/icons-react";
-
+import { SparklesPreview } from "@/components/SparklesPreview";
 const BottomGradient = () => {
     return (
         <>
@@ -37,7 +32,7 @@ const page = () => {
     return (
         <section className='relative w-full pt-36 h-auto pb-20'>
             <div className="max-w-[70%] m-auto">
-                <h1 className="text-center text-5xl font-semibold">Contact Us</h1>
+                <SparklesPreview/>
                 <form className="my-8 w-full" onSubmit={handleSubmit}>
                     <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
                         <LabelInputContainer>

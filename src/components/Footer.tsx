@@ -29,10 +29,10 @@ export const Footer = () => {
                 </div>
                 <div className=''>
                     <h3 className='text-lg mb-2'>Contact Us</h3>
-                    <p>New Delhi, India</p>
-                    <p>Delhi 10001</p>
-                    <p>Email: info@musicschool.com</p>
-                    <p>Phone: (123) 456-7890</p>
+                    <p>Karachi, Pakistan</p>
+                    <p>Karachi 74000</p>
+                    <p>Email: ammarshaikh50099@gmail.com</p>
+                    <p>Phone: 03334500888</p>
                 </div>
             </div>
             <p className="text-center text-xs pt-10">© 2024 Music School. All rights reserved.</p>
